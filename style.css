@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    h1{
+        padding-right: 2rem;
+    }
+    #switchTheme{
+        background-color: #dedede;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    #switchTheme:hover{
+        background-color: #bdbdbd;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    #calculadoraSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #calculadora{
+        border: none;
+        border-radius: 10px;
+        padding: 1.2rem;
+        background-color: #1a1a1a;
+    }
+    #resultado{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        height: 4rem;
+        width: 15.8rem;
+        padding-right: 1rem;
+        margin: 0;
+        background-color: #dedede;
+        color: #232323;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    .botao{
+        height: 4rem;
+        width: 4rem;
+        background-color: #dedede;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    .botao:hover{
+        background-color: #bdbdbd;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    #zero{
+        width: 8.3rem;
+    }
+    #igual{
+        height: 8.3rem;
+    }
+    #creditos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+}
+
+body.light{
+    background-color: #dedede;
+    color: #232323;
+    #switchTheme{
+        background-color: #3b3b3b;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+    }
+    #switchTheme:hover{
+        background-color: #2d2d2d;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    #calculadora{
+        background-color: #3b3b3b;
+    }
+    #resultado{
+        background-color: #dedede;
+        color: #3b3b3b;
+    }
+    .botao{
+        height: 4rem;
+        width: 4rem;
+        background-color: #c6c6c6;
+        color: #3b3b3b;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        border-radius: 5px;
+    }
+    .botao:hover{
+        background-color: #bababa;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
